@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import ProductForm from '../components/ProductForm.jsx'
-import { createProduct } from '/products.js'
+import { createProduct } from '../api/products.js'
 
 export default function NewProduct({ products, setProducts }) {
   const navigate = useNavigate()

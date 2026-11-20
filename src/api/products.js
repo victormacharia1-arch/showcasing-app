@@ -42,4 +42,4 @@ export function updateProduct(id, changes) {
 
 export function deleteProduct(id) {
   return request(`/products/${id}`, { method: 'DELETE' })
-}n
+}
